@@ -14,7 +14,6 @@ from signal import SIGINT, SIGTERM
 import textwrap
 import yaml
 
-from bson.codec_options import CodecOptions
 from quart import Quart, redirect, url_for, render_template, g, flash, current_app
 from quart_motor import Motor
 from rich.logging import RichHandler

@@ -1,0 +1,14 @@
+name: dashboard
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8
+  - bson
+  - quart
+  - rich
+  - pip
+  - pyyaml
+  - pip:
+    - python-kasa
+    - quart_motor
